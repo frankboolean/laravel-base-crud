@@ -2,7 +2,7 @@
 
 @section('content')
   <div class="content">
-    @foreach ($cagnoliniDB as $cane)
+    @foreach ($cagnoliniDb as $cane)
       {{$cane['nome']}} <br>
     @endforeach
   </div>
